@@ -23,4 +23,6 @@ if __name__ == "__main__":
         sys.exit()
      
     print 'Connected to remote host.'
+    print s.recv(1024)
+    s.close()
      
